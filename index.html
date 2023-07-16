@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.scaledrone.com/scaledrone.min.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Scaledron chat app" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ana Matasovic" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>ChatingApp</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Chatting App</h1>
+    </header>
+    <main>
+      <div class="members-count">-</div>
+      <div class="members-list">-</div>
+      <div class="messages"></div>
+      <form class="message-form" onsubmit="return false;">
+        <input
+          class="message-form__input"
+          placeholder="Type a message.."
+          type="text"
+        />
+        <input class="message-form__button" value="Send" type="submit" />
+      </form>
+    </main>
+    <footer>
+      <p>Designed by AM</p>
+    </footer>
+    <script src="script/index.js"></script>
+  </body>
+</html>
